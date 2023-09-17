@@ -1,6 +1,6 @@
 # nodejs-sqlite-signin
 This is a basic sign in page.
-**To validate the username and password must be the same.**
+**To validate the username and password must be the same.**                    
 **NOTE: To do the same in Ubuntu:            
 Install npm seperately first:             
 sudp apt install npm -y                  
