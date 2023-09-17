@@ -1,9 +1,17 @@
 # nodejs-sqlite-signin
 This is a basic sign in page.
 **To validate the username and password must be the same.**
+**NOTE: To do the same in Ubuntu:            
+Install npm seperately first:             
+sudp apt install npm -y                  
+Then do the sudo npm install in the code repo for required dependencies to insatll**                
 
-**To run the code:**
+**Also change the path of the index.html from /usr/share/nginx/html to /var/www/html in package.json file**              
+
+To run the code:            
+
 **Code tested on Amazon Linux-2 - Working**
+**Code tested on ubuntu Ubuntu 20.04.6 LTS - Working**
 
 **Install JAVA-1.8**:
 sudo yum install -y java-1.8*
