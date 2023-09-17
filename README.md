@@ -62,9 +62,9 @@ once the app runs in forground saying the application is running on 3000
 
 You can access it both in http://public-ip of instance:3000 and http://public-ip of instance                
 **App running in Background**
-If you want the app to run in background once you run sudo mvn package and it says app running on 3000                
-You can exit using ctrl+C and run the below command:                    
-sudo npm run build                 
+If you want the app to run in background then run the below commands:                    
+sudo npm run build              
+sudo npm run start              
 
 **Once done your aplication is running in background.**
 
