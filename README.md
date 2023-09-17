@@ -10,8 +10,8 @@ Then do the sudo npm install in the code repo for required dependencies to insat
 
 To run the code:            
 
-**Code tested on Amazon Linux-2 - Working**
-**Code tested on ubuntu Ubuntu 20.04.6 LTS - Working**
+**Code tested on Amazon Linux-2 - Working**                
+**Code tested on ubuntu Ubuntu 20.04.6 LTS - Working - Do the needed changes like using apt for Ubuntu**                
 
 **Install JAVA-1.8**:
 sudo yum install -y java-1.8*
@@ -32,7 +32,11 @@ sudo systemctl start nginx
 sudo systemctl enable nginx                  
 sudo systemctl status nginx 
 
-**Install Node-js**
+**Install Node-js (for Amazon Linux)**              
+sudo yum install https://rpm.nodesource.com/pub_16.x/nodistro/repo/nodesource-release-nodistro-1.noarch.rpm -y                  
+sudo yum install nodejs -y --setopt=nodesource-nodejs.module_hotfixes=1                                  
+
+**Install Node-js (for Ubuntu)**           
 sudo apt-get install -y ca-certificates curl gnupg                
 sudo mkdir -p /etc/apt/keyrings              
 curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg              
